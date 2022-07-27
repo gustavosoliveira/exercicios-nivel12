@@ -4,10 +4,12 @@ import (
 	"fmt"
 )
 
+// Imprimi Idade: + o valor da idade do animal
 func main() {
 	fmt.Println("Idade do animal:", Idade(10))
 }
 
+//Recebe um int e retorna um int
 func Idade(i int) int {
 	return i * 7
 }
